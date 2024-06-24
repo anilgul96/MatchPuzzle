@@ -1,5 +1,6 @@
 # MatchPuzzle
 Puzzle Game
-Destroy the cube chains! Overcome challenges, complete objectives and advance to the next level.
-<div> ![Screenshot_5](https://github.com/anilgul96/MatchPuzzle/assets/115142182/c047a6da-7de2-4658-b1ef-f2782b51af74) </div>
+Destroy the cube chains! Overcome challenges, complete objectives and advance to the next level. <br>
+![Screenshot_5](https://github.com/anilgul96/MatchPuzzle/assets/115142182/85d94cb5-34da-4149-9203-5c81ae625044)
+<br>
 
