@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7808889619280186838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8591174815262523316}
+  - component: {fileID: 7114522168759565643}
+  m_Layer: 6
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8591174815262523316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808889619280186838}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7114522168759565643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808889619280186838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f7160b4c9aaf1f47ac1e7b9e8dbca44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 4339401104100418607, guid: afa35ec84e57e2d4db9d31dd978dac3f, type: 3}
+  - {fileID: 4339401104100418607, guid: dfcbb24eecc44a447afe4d6d22c6682b, type: 3}
+  - {fileID: 4339401104100418607, guid: 6faede930cb134444ac1eab5ff788076, type: 3}
+  - {fileID: 4339401104100418607, guid: e94de11428016d546a3ced60bd6f148b, type: 3}
+  - {fileID: 4339401104100418607, guid: 2147270be245225439e7f9f828224795, type: 3}
+  duck: {fileID: 8669043336709010261, guid: 7873ec579cc46d14c90b834d26bf74d6, type: 3}
+  rocket: {fileID: 4602232411874848113, guid: da561f3ba0967c44995168423fca38e2, type: 3}
+  baloon: {fileID: 7999489340220493738, guid: 1d7c0b0a2eec5ea479d466b76c478000, type: 3}
+  numberOfBaloons: 3
+  numberOfDucks: 2
+  totalMoves: 10
+  totalBaloons: 5
+  coordX: 5
+  coordY: 5
